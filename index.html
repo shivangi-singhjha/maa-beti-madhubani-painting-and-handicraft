@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAA BETI MAHUBANI PAINTING & HANDICRAFT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/st.css">
+</head>
+
+<!-- NAV BAR -->
+<header>
+    <div class="nav">
+        <div class="n-logo">
+            <a href="index.html">
+                <div class="logo"></div>
+            </a>
+        </div>
+        <div class="n-search border">
+            <!-- <input class="ss" placeholder="Search Item" value="">
+            <a href="" style="text-decoration: none;">
+                <button class="search ser">
+                    <i id="direct" class="fa-solid fa-magnifying-glass"></i>
+                </button> -->
+            </a>
+        </div>
+        <div class="n-menU">
+            <div class="dropdown dropdown-1">
+                <a href="../pages/Men.html" style="text-decoration: none;">
+                    <p>MEN</p>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#m-section">BANDI</a>
+                    <a href="#m-section">KURTA</a>
+                    <a href="#m-section">SHAWL & PAG</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-4">
+                <a href="../pages/Women.html" style="text-decoration: none;">
+                    <p>WOMEN</p>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#womemen-section">SAREE</a>
+                    <a href="#womemen-section">KURTI</a>
+                    <a href="Women.html">DUPPATA</a>
+                    <a href="Women.html">BANDI & COAT</a>
+                </div>
+            </div>
+            <div class="dropdown dropdown-2">
+                <a href="../pages/painting.html" style="text-decoration: none;">
+                    <p>PAINTING</p>
+                </a>
+                <!-- <div class="dropdown-content">
+                    <a href="#">CLOTH</a>
+                    <a href="#">PAPER</a>
+                    <a href="#">CUSTOMIZE</a>
+                </div> -->
+            </div>
+            <div class="dropdown dropdown-3">
+                <a href="../pages/bag.html" style="text-decoration: none;">
+                    <p>HANDBAG</p>
+                </a>
+                <!-- <div class="dropdown-content">
+                    <a href="#">PURSE</a>
+                    <a href="#">UNISEX</a>
+                    <a href="#">SILK PURSE</a>
+                    <a href="#">JUTE PURSE</a>
+                </div> -->
+            </div>
+
+        </div>
+
+        <div class="wishlisttt" onclick="wishShow()">
+            <a id="islog" href="../pages/Wishlist.html" style="text-decoration: none; color:white;">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>Wishlist</p>
+            </a>
+        </div>
+
+        <div class="log" id="profile-section">
+            <!-- <a href="login.html" style="text-decoration: none; color:white;">
+                <i class="fa-solid fa-user"></i>
+                <p>Profile</p>
+            </a> -->
+        </div>
+    </div>
+
+    <div class="bor"></div>
+</header>
+
+<!-- SLIDER -->
+<div class="main-image">
+
+    <img class="mySlides" src="../images/main-image.png">
+    <img class="mySlides" src="../images/main-image.png">
+    <img class="mySlides" src="../images/Slider/slider13.jpg">
+    <img class="mySlides" src="../images/Slider/slider2.jpg">
+    <img class="mySlides" src="../images/Slider/slider12.jpg">
+
+</div>
+
+<div class="bor"></div>
+
+<body>
+    <!-- CLOTHING FOR WOMEN -->
+    <h2 id="womemen-section" class="ourHeading">CLOTHING FOR WOMEN</h2>
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="../images/Kurti/Kurti3.jpg" class="product-thumb" alt="">
+                <button class="card-btn butt" id="1">add to whislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Khadi Cotton Kurti</h2>
+                <p class="product-short-des">HandPainted Madhubani Painting Kurti.</p>
+                <span class="price">₹2000</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="../images/Saree/Saree5.jpg" class="product-thumb" alt="">
+                <button class="card-btn butt" id="2">add to whislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Silk Saree</h2>
+                <p class="product-short-des">HandPainted Madhubani Painting Tusser Silk Saree.</p>
+                <span class="price">₹15000</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="../images/Long_Coat.jpg" class="product-thumb" alt="">
+                <button class="card-btn butt" id="3">add to whislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Silk Long Coat</h2>
+                <p class="product-short-des">HandPainted Madhubani Painting Silk Long Coat</p>
+                <span class="price">₹6000</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="../images/Kurti/Bandi1.jpg" class="product-thumb" alt="">
+                <button class="card-btn butt" id="4">add to whislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Silk Short Coat</h2>
+                <p class="product-short-des">HandPainted Madhubani Painting Silk Short Coat.</p>
+                <span class="price">₹2000</span>
+            </div>
+        </div>
+    </div>
+    <a href="../pages/Women.html">
+        <button class="btn">Explore More</button>
+    </a>
+
+    <!-- CLOTHING FOR WOMEN -->
+    <h2 id="m-section" class="ourHeading">CLOTHING FOR MEN</h2>
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="../images/MEN/Bandi1.jpg" class="product-thumb" alt="">
+                <button class="card-btn butt" id="5">add to whislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Khadi Silk Bandi</h2>
+                <p class="product-short-des">HandPainted Madhubani Painting Kurti.</p>
+                <span class="price">₹2000</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="../images/MEN/Pag.jpg" class="product-thumb" alt="">
+                <button class="card-btn butt" id="6">add to whislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Mithila Pag</h2>
+                <p class="product-short-des">HandPainted Madhubani Painting Tusser Silk Pag.</p>
+                <span class="price">₹1000</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="../images/MEN/Kurta2.jpg" class="product-thumb" alt="">
+                <button class="card-btn butt" id="7">add to whislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Silk Kurta</h2>
+                <p class="product-short-des">HandPainted Madhubani Painting Silk Kurta</p>
+                <span class="price">₹3000</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="../images/MEN/Shawl.jpg" class="product-thumb" alt="">
+                <button class="card-btn butt" id="8">add to whislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Shawl</h2>
+                <p class="product-short-des">HandPainted Madhubani Painting Silk Shawl.</p>
+                <span class="price">₹2000</span>
+            </div>
+        </div>
+    </div>
+    <a href="../pages/Men.html">
+        <button class="btn">Explore More</button>
+    </a>
+
+
+    <!-- NEW SEASON -->
+    <div class="newSeason">
+        <div class="nsItem">
+            <img decoding="async" src="../images/newseason.jpg"
+                style=" box-shadow: 0 0 1px white, 0 0 2px white, 0 0 4px rgba(255, 199, 78, 0.934), 0 0 5px;" alt=""
+                class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">Wedding Season New Arrivals</h3>
+            <h1 class="nsTitle">New Season</h1>
+            <h1 class="nsTitle">New Collection</h1>
+            <a href="#nav">
+                <!-- <button class="nsButton">CHOOSE YOUR STYLE</button> -->
+            </a>
+        </div>
+        <div class="nsItem">
+            <img decoding="async" src="../images/newSeason04.jpg"
+                style=" box-shadow: 0 0 1px white, 0 0 2px white, 0 0 4px rgba(255, 199, 78, 0.934), 0 0 5px;"
+                class="nsImg">
+        </div>
+    </div>
+
+
+    <!-- Our Best Sellers -->
+    <h2 class="ourHeading">OUR BEST SELLERS</h2>
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="../images/bag3.png" class="product-thumb" alt="">
+                <button class="card-btn butt" id="9">add to whislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Silk Bags</h2>
+                <p class="product-short-des">HandPainted Madhubani Painting Tusser SiLK Bags.</p>
+                <span class="price">₹500</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="../images/lehenga.jpg" class="product-thumb" alt="">
+                <button class="card-btn butt" id="10">add to whislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">SILK LEHENGA</h2>
+                <p class="product-short-des">HandPainted Madhubani Painting Silk Lehenga</p>
+                <span class="price">₹10000</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="../images/slider15.png" class="product-thumb" alt="">
+                <button class="card-btn butt" id="11">add to whislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">MAHUBANI Silk Saree</h2>
+                <p class="product-short-des">HandPainted Madhubani Painting Silk Saree (Full Body Painting).</p>
+                <span class="price">₹15000</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="../images/Long_Coat.jpg" class="product-thumb" alt="">
+                <button class="card-btn butt" id="12">add to whislist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">MAHUBANI HandPainted Long Coat</h2>
+                <p class="product-short-des">HandPainted Madhubani Painting Silk Long Coat.</p>
+                <span class="price">₹15000</span>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/wish.js"></script>
+</body>
+<footer>
+    <div class="fo">
+        <div class="foo-products">
+            <div class="foo-p-women">
+                <a href="../pages/Women.html" style="text-decoration: none; color:white;">
+                    <h4>Women</h4>
+                    <p>Saree</p>
+                    <p>Kurti</p>
+                    <p>Duppata</p>
+                    <p>Coat</p>
+                </a>
+            </div>
+            <div class="foo-p-men">
+                <a href="../pages/Men.html" style="text-decoration: none; color:white;">
+                    <h4>Men</h4>
+                    <p>Kurta</p>
+                    <p>Coat</p>
+                    <p>Pag</p>
+                    <p>Shawl</p>
+                </a>
+            </div>
+            <div class="foo-p-accessories">
+                <a href="../pages/bag.html" style="text-decoration: none; color:white;">
+                    <h4>Aceessories</h4>
+                    <p>Silk Purse</p>
+                    <p>Laptop Bag</p>
+                    <p>Jute Bag</p>
+                    <p>Mobile Purse</p>
+                </a>
+            </div>
+        </div>
+        <div class="foo-connect">
+            <h4>Connect</h4>
+            <div class="icon">
+                <a color="white" href="https://www.instagram.com/maabetimadhubanipainting/?hl=en">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://jsdl.in/DT-51I2EAA66QM">
+                    <i color="white" class="fa-solid fa-phone-volume"></i>
+                    <!-- <i color="white" class="fa-regular fa-phone"></i> -->
+                </a>
+                <a href="https://m.facebook.com/profile.php?id=100010985732887">
+                    <i color="white" class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1778.7227191213854!2d85.35719507191678!3d23.399555168098885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e31cebcba32b%3A0x267e008ab7029c8e!2sMAA%20BETI%20MADHUBANI%20PAINTING%20SHOP!5e0!3m2!1sen!2sin!4v1713613445904!5m2!1sen!2sin"
+        width="100%" height="250"
+        style="box-shadow: 0 0 1px white, 0 0 2px white, 0 0 4px rgba(255, 199, 78, 0.683), 0 0 5px rgba(255, 199, 78, 0.683);"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+</footer>
+
+</html>

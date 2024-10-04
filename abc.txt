@@ -1,0 +1,129 @@
+<div class="shopRow-1 hello">
+        <div class="shopp shop1-f">
+            <div class="BAGS xxf">
+                <h2>BAGS</h2>
+            </div>
+            <div class="BAGS xxf">
+                <h2>Kurti</h2>
+            </div>
+            <div class="SAREE xxf">
+                <h2>SAREE</h2>
+            </div>
+        </div>
+        <div class="shopp shop1-b">
+            <div class="BAGX xxb">
+                <h2>BAGS</h2>
+            </div>
+            <div class="BAGX xxb">
+                <h2>Kurti</h2>
+            </div>
+            <div class="BAGX xxb">
+                <h2>Duppata</h2>
+            </div>
+        </div>
+    </div>
+
+
+
+    //////csss
+
+    .ourP {
+    padding-top: 2rem;
+    font-size: 30px;
+    color: #1f4632;
+    text-shadow: #1f4632;
+}
+
+.shopp {
+    height: 300px;
+    margin-left: 0.4px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #1f4632;
+    width: 100%;
+}
+
+.hello {
+    position: relative;
+}
+
+.xxf {
+    /* border: 2px solid black; */
+    width: 25%;
+    margin-top: 2rem;
+    background-color: rgba(255, 199, 78, 0.683);
+    box-shadow: 0 0 1px white, 0 0 2px white, 0 0 4px #1f4632, 0 0 5px #1f4632;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* border-radius: 10%; */
+}
+
+.xxf h2 {
+    color: #1f4632;
+    font-weight: bolder;
+    font-size: 2.85rem;
+}
+
+
+
+.xxf:hover {
+
+    transition: 1s ease-in-out;
+    box-shadow: none;
+    background-color: #ff143f54;
+    transform: scaleX(-0%);
+    /* translate: 100px; */
+    border-radius: 0%;
+
+}
+
+.xxb {
+    /* border: 2px solid black; */
+    width: 25%;
+    margin-top: 2rem;
+    background-color: rgba(255, 199, 78, 0.934);
+    opacity: 80%;
+    box-shadow: 0 0 1px white, 0 0 2px white, 0 0 4px black, 0 0 5px black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* border-radius: 10%; */
+
+}
+
+.shop1-b {
+    position: relative;
+    z-index: 1;
+}
+
+.shop1-f {
+    position: absolute;
+    z-index: 2;
+}
+
+.shop2-b {
+    position: relative;
+    z-index: 1;
+}
+
+.shop2-f {
+    position: absolute;
+    z-index: 2;
+}
+
+.BAGS {
+    height: contain;
+    background-image: url("images/poster.jpg");
+    width: contain;
+    background-repeat: no-repeat;
+}
+
+.SAREE {
+    height: contain;
+    background-image: url("images/poster.jpg");
+    width: contain;
+    background-repeat: no-repeat;
+}
